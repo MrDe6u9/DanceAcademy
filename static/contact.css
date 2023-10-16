@@ -1,0 +1,34 @@
+.container{
+    height: 84vh;
+}
+
+h1{
+    font-family: 'Autour One', 'cursive' ;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myinput{
+    width: 30%;
+    padding: 8px;
+    margin: 8px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 10px;
+}

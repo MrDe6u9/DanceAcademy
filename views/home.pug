@@ -1,0 +1,44 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    
+    section#intro 
+            //- | ye use hota hai show karne ke liye 
+            div Welcome to Adarsh Dance academy
+            div.small Eat Sleep Dance Repeat
+
+    section#mission 
+            h2 Our Mission
+            div.card 
+                h3 Dance Perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/2.png", alt="")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, aperiam.
+            div.card 
+                h3 Dance the way you link
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/3.png", alt="")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, aperiam.
+            div.card 
+                h3 Expert Teaching 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/4.png", alt="")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, aperiam.    
+
+    section#sponsor 
+            h2 Our Sponsers 
+            div#sponsorimg 
+                img(src="/static/apple.png", alt="sponser img" class="spimg")
+                img(src="/static/hp.png", alt="sponser img" class="spimg")
+                img(src="/static/microsoft.png", alt="sponser img" class="spimg")
+                img(src="/static/Skype.png", alt="sponser img" class="spimg")        

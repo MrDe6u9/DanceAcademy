@@ -1,0 +1,23 @@
+doctype html 
+//- too yahaper ham ek base site bana rahe hai , abhi jo content hame home page pe chahiye vo ham home.pug me dalenge
+//- ye bas hamari ek template hai , isko use karke ham baki ke page banayenge 
+//- abhi jo jo muje mere har page me chahiye vo me ider dal dunga , jese navbar aur footer 
+html    
+    head 
+        title Adarsh Dance Academy
+        block script
+        block style  
+    body
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="/static/1.png", alt="")
+                    | ADA
+                li #[a(href="/") Home ]
+                li #[a(href="/") About ]
+                li #[a(href="/contact") Conatact us ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class info ] 
+        block content 
+        footer#footer 
+                | copyright © 2019 adarshdanceacademy.com              
